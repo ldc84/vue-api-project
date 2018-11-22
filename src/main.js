@@ -15,12 +15,12 @@ Vue.use(Antd)
 Vue.prototype.$http = axios
 
 var config = {
-  apiKey: 'AIzaSyB20KvGNExHfCWuiDrsAHXIBRX9WqYaEd8',
-  authDomain: 'vue-example1.firebaseapp.com',
-  databaseURL: 'https://vue-example1.firebaseio.com',
-  projectId: 'vue-example1',
-  storageBucket: 'vue-example1.appspot.com',
-  messagingSenderId: '686205830736'
+  apiKey: "AIzaSyAC67bytXN8ZT7P2Gr2t19HFPqtUec0OXk",
+  authDomain: "vue-api-project.firebaseapp.com",
+  databaseURL: "https://vue-api-project.firebaseio.com",
+  projectId: "vue-api-project",
+  storageBucket: "vue-api-project.appspot.com",
+  messagingSenderId: "770926329084"
 }
 firebase.initializeApp(config)
 
